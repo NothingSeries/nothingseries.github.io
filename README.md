@@ -1,41 +1,38 @@
-# Website
+# Nothing Series Performance Mods Wiki
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the Nothing Series Performance Mods Wiki! This documentation provides comprehensive information about Minecraft performance mods across different mod loaders and versions.
 
-### Installation
+## About
 
-```
-$ yarn
-```
+This wiki is built with [Docusaurus](https://docusaurus.io/) and contains information about performance mods for:
+- NeoForge
+- Forge
+- Fabric
 
-### Local Development
+## Local Development
 
-```
-$ yarn start
-```
+```bash
+# Install dependencies
+npm install
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+# Start development server
+npm start
 
-### Build
+# Build for production
+npm run build
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+# Deploy to GitHub Pages
+npm run deploy-gh
 ```
 
-Not using SSH:
+## Contributing
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
