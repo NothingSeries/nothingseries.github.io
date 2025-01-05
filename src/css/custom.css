@@ -1,0 +1,111 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1f2428;
+  --ifm-color-primary-dark: #1c2024;
+  --ifm-color-primary-darker: #1a1e22;
+  --ifm-color-primary-darkest: #16191c;
+  --ifm-color-primary-light: #22282c;
+  --ifm-color-primary-lighter: #24282e;
+  --ifm-color-primary-lightest: #282d34;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #1f2428;
+  --ifm-navbar-link-hover-color: #f5c000;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #f5c000;
+  --ifm-color-primary-dark: #ddb000;
+  --ifm-color-primary-darker: #d1a600;
+  --ifm-color-primary-darkest: #ac8900;
+  --ifm-color-primary-light: #ffc80f;
+  --ifm-color-primary-lighter: #ffcb1f;
+  --ifm-color-primary-lightest: #ffd447;
+  --ifm-navbar-background-color: #1a1b1e;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-footer-background-color: #1a1b1e;
+  --ifm-background-color: #242526;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode button styling */
+[data-theme='dark'] .button.button--secondary {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+[data-theme='dark'] .button.button--secondary:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Button base styling */
+.button.button--secondary {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  box-shadow: none;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.navbar__title,
+.navbar__link {
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__link:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+/* Code block styling */
+div[class^='codeBlockContainer'] {
+  background-color: var(--prism-background-color) !important;
+}
+
+code[class^='codeBlock'] {
+  color: var(--prism-color) !important;
+}
+
+.prism-code .token.comment {
+  color: var(--prism-token-comment) !important;
+}
+
+.prism-code .token.keyword {
+  color: var(--prism-token-keyword) !important;
+}
+
+.prism-code .token.string {
+  color: var(--prism-token-string) !important;
+}
+
+.prism-code .token.function {
+  color: var(--prism-token-function) !important;
+}
+
+.prism-code .token.number {
+  color: var(--prism-token-number) !important;
+}
+
+.prism-code .token.class-name {
+  color: var(--prism-token-class-name) !important;
+}
+
+.prism-code .token.constant {
+  color: var(--prism-token-constant) !important;
+}
