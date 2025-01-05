@@ -140,7 +140,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nothing Series, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nothing Series. Built with Docusaurus. This documentation is open source.`,
       },
       prism: {
         theme: prismThemes.github,
