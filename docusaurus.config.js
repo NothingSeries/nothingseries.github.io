@@ -101,11 +101,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
+              },
+              {
+                label: 'NeoForge Mods',
+                to: '/docs/mods/neoforge',
+              },
+              {
+                label: 'Forge Mods',
+                to: '/docs/mods/forge',
+              },
+              {
+                label: 'Fabric Mods',
+                to: '/docs/mods/fabric',
               },
             ],
           },

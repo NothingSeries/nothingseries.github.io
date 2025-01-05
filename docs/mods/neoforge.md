@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # NeoForge Mods
@@ -8,19 +8,11 @@ Welcome to the NeoForge mods section! Here you'll find performance mods compatib
 
 ## Available Versions
 
-Browse mods by Minecraft version:
-- [1.20.1](#)
-- [1.21.1](#)
+- 1.20.1
+- 1.21.1
 
-## Mod List
+## Featured Mods
 
-Use <kbd>Ctrl</kbd> + <kbd>K</kbd> to search for mods or filter by tags.
+See our [Example Mod](/docs/mods/example-mod) for a template of how mod pages are structured.
 
-### Featured Mods
-
-:::tip Featured Mod
-**Example Mod Name**
-- Tags: #1.20.1 #performance #rendering
-- Description: A brief description of what the mod does and how it improves performance.
-- [Learn More](./mods/example-mod)
-::: 
+More mods coming soon! 
