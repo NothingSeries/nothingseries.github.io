@@ -2,6 +2,8 @@
 
 Welcome to the Nothing Series Performance Mods Wiki! This documentation provides comprehensive information about Minecraft performance mods across different mod loaders and versions.
 
+it is made to be a replacement for the current kinda out of date github wikis which just don't look rly good or have old information.
+
 ## About
 
 This wiki is built with [Docusaurus](https://docusaurus.io/) and contains information about performance mods for:
@@ -11,7 +13,7 @@ This wiki is built with [Docusaurus](https://docusaurus.io/) and contains inform
 
 ## Local Development
 
-```bash
+```zsh
 # Install dependencies
 npm install
 
