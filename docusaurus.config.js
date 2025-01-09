@@ -51,8 +51,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // Replace with your project's social card,
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'Home',
         logo: {
@@ -81,6 +86,10 @@ const config = {
               {
                 label: 'Fabric',
                 to: '/docs/mods/fabric',
+              },
+              {
+                label: 'Quilt',
+                to: '/docs/mods/quilt',
               },
             ],
           },
@@ -119,6 +128,10 @@ const config = {
                 label: 'Fabric Mods',
                 to: '/docs/mods/fabric',
               },
+              {
+                label: 'Quilt Mods',
+                to: '/docs/mods/quilt',
+              },
             ],
           },
           {
@@ -140,13 +153,14 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nothing Series. Built with Docusaurus. This documentation is open source.`,
+        copyright: `Built with Docusaurus. This documentation is open source.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+    
 };
 
 export default config;

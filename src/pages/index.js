@@ -50,6 +50,17 @@ function HomepageHeader() {
             />
             Fabric
           </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/mods/quilt"
+            style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '8px 16px' }}>
+            <img 
+              alt="quilt" 
+              height="24" 
+              src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/supported/quilt_vector.svg"
+            />
+            Quilt
+          </Link>
         </div>
       </div>
     </header>
