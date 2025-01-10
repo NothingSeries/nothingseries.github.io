@@ -1,50 +1,35 @@
 ---
-sidebar_position: 4
-slug: tag-reference
+title: Tags Reference
+description: Reference guide for all mod tags
+sidebar_position: 100
 ---
 
 # Tags Reference
 
-This page lists all available tags used to categorize mods.
+This page lists all the tags used throughout the documentation to categorize mods.
 
-## Version Tags
+## Mod Type Tags
+- `performance` - Mods that improve game performance
+- `optimization` - Mods that optimize specific game mechanics
+- `fork` - Mods that are forks of other projects
+- `bugfix` - Mods that fix vanilla bugs
 
-- #1.7.10
-- #1.12.2
-- #1.16.5
-- #1.20.1
-- #1.21.1
-
-## Mod Loader Tags
-
-- #forge
-- #fabric
-- #neoforge
-
-## Performance Categories
-
-- #performance - General performance improvements
-- #optimization - Code and game optimizations
-- #rendering - Graphics and rendering improvements
-- #memory - Memory usage optimizations
-- #cpu - CPU usage optimizations
-- #chunk-loading - Chunk loading improvements
-- #entity - Entity-related optimizations
-- #particles - Particle system optimizations
-- #animations - Animation optimizations
-- #gui - GUI performance improvements
+## Compatibility Tags
+- `server-side` - Mods that only need to be installed on the server
+- `client-side` - Mods that only need to be installed on the client
+- `required-both` - Mods that need to be installed on both client and server
 
 ## Feature Tags
+- `gui` - Mods that add or modify GUI elements
+- `rendering` - Mods that modify game rendering
+- `memory` - Mods that optimize memory usage
+- `network` - Mods that optimize network performance
 
-- #client-side - Client-side only mods
-- #server-side - Server-side compatible mods
-- #configurable - Highly configurable mods
-- #debug - Includes debugging features
-- #compatibility - Known for good mod compatibility
+## Version Tags
+- `1.21.1` - Compatible with Minecraft 1.21.1
+- `1.20.1` - Compatible with Minecraft 1.20.1
 
-## Usage Instructions
-
-1. Use <kbd>Ctrl</kbd> + <kbd>K</kbd> to open the search
-2. Type # followed by the tag name to filter by tag
-3. Combine multiple tags using spaces (e.g., "#1.20.1 #fabric #performance")
-4. Click on any tag in mod descriptions to filter by that tag
+## Loader Tags
+- `neoforge` - NeoForge mods
+- `forge` - Forge mods
+- `fabric` - Fabric mods

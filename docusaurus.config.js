@@ -31,6 +31,20 @@ const config = {
     locales: ['en'],
   },
 
+  themes: [
+    // @ts-ignore
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en"],
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: "/docs",
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',

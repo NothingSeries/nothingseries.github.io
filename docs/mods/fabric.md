@@ -1,19 +1,19 @@
 ---
-sidebar_position: 4
+title: Fabric Mods Overview
+description: Overview of Fabric performance mods
+sidebar_position: 3
+tags: [fabric]
 ---
 
 # Fabric Mods
 
-Welcome to the Fabric mods section! Here you'll find performance mods compatible with Fabric.
+Welcome to the Fabric mods section. Here you'll find performance mods for different Minecraft versions using the Fabric mod loader.
 
 ## Available Versions
 
-- 1.16.5
-- 1.20.1
-- 1.21.1
+- [1.21.1 Mods](/docs/mods/fabric/1.21.1)
+- [1.20.1 Mods](/docs/mods/fabric/1.20.1)
 
-## Featured Mods
+## About Fabric
 
-See our [Example Mod](/docs/mods/example-mod) for a template of how mod pages are structured.
-
-More mods coming soon! 
+Fabric is a lightweight, modern mod loader focused on modularity and performance. It's known for its quick updates to new Minecraft versions and its growing ecosystem of optimization mods. 

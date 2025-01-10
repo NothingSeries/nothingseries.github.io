@@ -1,20 +1,19 @@
 ---
-sidebar_position: 3
+title: Forge Mods Overview
+description: Overview of Forge performance mods
+sidebar_position: 2
+tags: [forge]
 ---
 
 # Forge Mods
 
-Welcome to the Forge mods section! Here you'll find performance mods compatible with Forge.
+Welcome to the Forge mods section. Here you'll find performance mods for different Minecraft versions using the Forge mod loader.
 
 ## Available Versions
 
-- 1.7.10
-- 1.12.2
-- 1.16.5
-- 1.20.1
+- [1.21.1 Mods](/docs/mods/forge/1.21.1)
+- [1.20.1 Mods](/docs/mods/forge/1.20.1)
 
-## Featured Mods
+## About Forge
 
-See our [Example Mod](/docs/mods/example-mod) for a template of how mod pages are structured.
-
-More mods coming soon! 
+Forge is one of the oldest and most established Minecraft mod loaders, known for its stability and extensive mod ecosystem. 
