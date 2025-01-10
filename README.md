@@ -10,6 +10,7 @@ This wiki is built with [Docusaurus](https://docusaurus.io/) and contains inform
 - NeoForge
 - Forge
 - Fabric
+- Quilt
 
 ## Local Development
 
