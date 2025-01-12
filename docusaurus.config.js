@@ -51,7 +51,6 @@ const config = {
         hideSearchBarWithNoSearchContext: false,
         explicitSearchResultPath: true,
         ignoreFiles: [/tutorial/],
-        searchRegex: /[#a-zA-Z0-9_-]+/,
       },
     ],
   ],
