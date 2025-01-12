@@ -174,6 +174,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/nothingseries/nothingseries.github.io',
               },
+              {
+                label: 'Pssst',
+                to: '/docs/mods/modpages/psst1',
+              },
             ],
           },
         ],
