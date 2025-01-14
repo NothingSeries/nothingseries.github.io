@@ -34,7 +34,7 @@ export const mods = [
     status: 'meme',
     tags: ['Client', 'Security'],
     links: [
-      { type: 'Website', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
+      { type: 'CurseForge', url: 'https://www.curseforge.com/minecraft/mc-mods/captcha' }
     ]
   },
   {
@@ -156,4 +156,4 @@ export const mods = [
   }
 ];
 
-<ModList mods={mods} /> 
+<ModList mods={mods} />
