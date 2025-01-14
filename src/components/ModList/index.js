@@ -18,7 +18,7 @@ const OutdatedBadge = () => (
 const TAG_CATEGORIES = {
   'Batch': ['Recommended', 'Outdated'],
   'Types': ['Client', 'Server'],
-  'Features': ['Rendering', 'Memory', 'Lighting', 'Bugfix', 'Tpsfix', 'Debug', 'Networking', 'Fork',],
+  'Features': ['Rendering', 'Memory', 'Lighting', 'Bugfix', 'Tpsfix', 'Debug', 'Networking', 'Fork', 'Loading'],
 };
 
 export function ModList({ mods, modLoader }) {
