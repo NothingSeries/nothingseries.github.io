@@ -43,7 +43,7 @@ export const mods = [
     status: 'meme',
     tags: ['Client', 'Server', 'Memory'],
     links: [
-      { type: 'CurseForge', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
+      { type: 'CurseForge', url: 'https://www.curseforge.com/minecraft/mc-mods/darmstadtium' }
     ]
   },
   {
@@ -61,7 +61,7 @@ export const mods = [
     status: 'meme',
     tags: ['Client', 'Rendering'],
     links: [
-      { type: 'Website', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
+      { type: 'Website', url: 'https://www.curseforge.com/minecraft/mc-mods/sodium-reforged' }
     ]
   },
   {
@@ -70,8 +70,8 @@ export const mods = [
     status: 'meme',
     tags: ['Client', 'Rendering'],
     links: [
-      { type: 'Website', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
-    ]
+      { type: 'Website', url: 'https://www.curseforge.com/minecraft/mc-mods/fps-boost' }
+      ]
   },
   {
     name: 'FPS Increaser',
@@ -79,7 +79,7 @@ export const mods = [
     status: 'meme',
     tags: ['Client', 'Rendering'],
     links: [
-      { type: 'Website', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
+      { type: 'Got removed from CurseForge so here a random link', url: 'https://www.nyan.cat/' }
     ]
   },
   {
