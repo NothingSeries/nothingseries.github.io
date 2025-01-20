@@ -1,0 +1,34 @@
+.version-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.version-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+}
+
+.version-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffc800;
+  margin-bottom: 0.75rem;
+}
+
+.version-number, .version-range {
+  font-size: 1rem;
+  color: var(--ifm-color-content);
+  margin-bottom: 0.25rem;
+}
+
+.version-number:last-child, .version-range:last-child {
+  margin-bottom: 0;
+} 
