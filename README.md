@@ -38,16 +38,23 @@ npm run deploy-gh
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## Setting up CurseForge Proxy
+
+1. Copy `curseforge-proxy.js.template` to `curseforge-proxy.js`
+2. Set your CurseForge API key in your environment variables
+3. The proxy will automatically use the API key from the environment variable
+NEVER commit your actual API key to the repository. The `curseforge-proxy.js` file is gitignored.
+
 ## Progress Tree
 
 ### Completed ✅
 - [x] fix Psst (Ultra Performance Docs with correct links and edit descriptions)
 - [x] maybe show modicons on the pages
 - [x] add batch hover tooltip
+- [x] add picture support with pre-fetching pictures
 
 ### In Progress 🚧
 - [ ] Add detailed mod descriptions and usage guides for some mods
-- [ ] Add hover tooltip for recommended and outdated batch
 
 
 ### Planned 📋
@@ -81,14 +88,3 @@ npm run deploy-gh
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Setting up CurseForge Proxy
-
-1. Copy `curseforge-proxy.js.template` to `curseforge-proxy.js`
-2. Set your CurseForge API key in your environment variables:
-   ```bash
-   export CURSEFORGE_API_KEY='your-api-key-here'
-   ```
-3. The proxy will automatically use the API key from the environment variable
-
-Note: Never commit your actual API key to the repository. The `curseforge-proxy.js` file is gitignored for security.
