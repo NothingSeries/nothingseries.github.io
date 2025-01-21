@@ -1,32 +1,3 @@
-const MODRINTH_API_URL = 'https://api.modrinth.com/v2';
-
-export function extractModrinthId(url) {
-  if (!url) return null;
-  const match = url.match(/modrinth\.com\/mod\/([^/]+)/);
-  return match ? match[1] : null;
-}
-
-export async function getModInfo(modrinthUrl) {
-  try {
-    const modId = extractModrinthId(modrinthUrl);
-    if (!modId) return null;
-
-    const response = await fetch(`${MODRINTH_API_URL}/project/${modId}`);
-    if (!response.ok) {
-      console.warn(`No Modrinth data found for ${modId}: ${response.status}`);
-      return null;
-    }
-    
-    const data = await response.json();
-    return {
-      logo: data.icon_url ? { url: data.icon_url } : null
-    };
-  } catch (error) {
-    console.error('Error fetching mod info:', error);
-    return null;
-  }
-}
-
 // Helper function to create a mod with minimal required info
 export function createMod({ 
   name,

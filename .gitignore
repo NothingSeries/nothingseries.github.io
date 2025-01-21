@@ -10,11 +10,11 @@
 
 # Misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.env
 
 # IDE specific files
 .idea
@@ -35,3 +35,10 @@ yarn-error.log*
 # Scripts
 scripts/fetch-mod-images.js
 curseforge-proxy.js
+
+# Environment variables
+.env
+
+# Generated mod images
+/static/img/mods/*
+!/static/img/mods/missing-texture.svg

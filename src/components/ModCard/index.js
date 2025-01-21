@@ -1,25 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { getModInfo, extractModrinthId } from '../../services/modApi.js';
 import { VerifiedBadge, OutdatedBadge } from '../Badges/index.js';
 import styles from './styles.module.css';
 
 export function ModCard({ mod, showImage = true }) {
   const [modImage, setModImage] = useState(mod.image || '/img/missing-texture.svg');
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    if (!showImage) {
-      setIsLoading(false);
-      return;
-    }
-
-    console.log(`[ModCard] Setting up image for ${mod.name}:`, {
-      providedPath: mod.image,
-      currentImage: modImage
-    });
-
-    setIsLoading(false);
-  }, [mod.name, mod.image, showImage]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleImageError = () => {
     console.log(`[ModCard] Image failed to load for ${mod.name}, using fallback`);
