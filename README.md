@@ -64,6 +64,7 @@ NEVER commit your actual API key to the repository. The `curseforge-proxy.js` fi
 - [ ] Add wiki redirect for modpages
 - [ ] restructure the modpage layout
 - [ ] Add ALL mods lol
+- [ ] refactor in rust
 
 
 ## Credits
